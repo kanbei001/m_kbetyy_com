@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0,user-scalable=no"/>
+    <title>{dede:global.cfg_webname/}</title>
+    <meta name="keywords" content="{dede:global.cfg_keywords/}"/>
+    <meta name="description" content="{dede:global.cfg_description/}"/>
+    <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/index.css"/>
+  </head>
+  <body>
+    <section class="wrap">
+      {dede:include filename="header.htm"/}
+      {dede:include filename="banner.htm"/}
+      <section class="news">
+        <ul class="news_c">
+          <li class="cur">康贝动态</li>
+          <li>患儿故事</li>
+          <li>精彩专题</li>
+        </ul>
+        <ul>
+          <li class="news_t">
+            {dede:arclist typeid="4" row="3" flag="c"}
+            <a href="[field:arcurl/]"><b>• [field:fulltitle/]</b><span>[阅读全文]</span></a>
+            {/dede:arclist}
+          </li>
+          <li class="news_t">
+            {dede:arclist typeid="16" row="3" flag="c"}
+            <a href="[field:arcurl/]"><b>• [field:fulltitle/]</b><span>[阅读全文]</span></a>
+            {/dede:arclist}
+          </li>
+          <li class="news_t">
+            {dede:arclist typeid="541" row="3"}
+            <a href="[field:arcurl/]"><b>• [field:fulltitle/]</b><span>[进入专题]</span></a>
+            {/dede:arclist}
+          </li>
+        </ul>
+      </section>
+      <section class="index_keshi">
+        <h2 class="index_tit"><span>诊疗科室</span><i></i></h2>
+        <div class="keshi1 keshi">
+          <h2><i></i>发育行为<b></b></h2>
+          <div class="keshi_list">
+            <ul>
+              {dede:channelartlist typeid="543" type="son" row="8"}
+              <li><a href="{dede:field.typeurl/}">{dede:field.typename/}</a></li>
+              {/dede:channelartlist}
+              <li><a href="javascript:onKST();">行为异常</a></li>
+              <li><a href="javascript:onKST();">不善交际</a></li>
+            </ul>
+            {dede:type typeid="543"}<a class="more" href="[field:typeurl/]">进入[field:typename/]</a>{/dede:type}
+          </div>
+        </div>
+        <div class="keshi2 keshi">
+          <h2><i></i>神经内科<b></b></h2>
+          <div class="keshi_list">
+            <ul>
+              {dede:channelartlist typeid="52,53,57,50,58,49,59,231"}
+              <li><a href="{dede:field.typeurl/}">{dede:field.typename/}</a></li>
+              {/dede:channelartlist}
+            </ul>
+            {dede:type typeid="427"}<a class="more" href="[field:typeurl/]">进入[field:typename/]</a>{/dede:type}
+          </div>
+        </div>
+        <div class="keshi3 keshi">
+          <h2><i></i>内分泌科<b></b></h2>
+          <div class="keshi_list">
+            <ul>
+              {dede:channelartlist typeid="60,62,63,64,65,66,514,552"}
+              <li><a href="{dede:field.typeurl/}">{dede:field.typename/}</a></li>
+              {/dede:channelartlist}
+            </ul>
+            {dede:type typeid="23"}<a class="more" href="[field:typeurl/]">进入[field:typename/]</a>{/dede:type}
+          </div>
+        </div>
+        <div class="keshi4 keshi">
+          <h2><i></i>泌尿外科<b></b></h2>
+          <div class="keshi_list">
+            <ul>
+              {dede:channelartlist typeid="92,93,94,95,96,97,98,99"}
+              <li><a href="{dede:field.typeurl/}">{dede:field.typename/}</a></li>
+              {/dede:channelartlist}
+            </ul>
+            {dede:type typeid="27"}<a class="more" href="[field:typeurl/]">进入[field:typename/]</a>{/dede:type}
+          </div>
+        </div>
+        <div class="keshi5 keshi">
+          <h2><i></i>其它科室<b></b></h2>
+          <div class="keshi_list">
+            <ul>
+              {dede:channelartlist typeid="26,24,25,19,20,31,443,29"}
+              <li><a href="{dede:field.typeurl/}">{dede:field.typename/}</a></li>
+              {/dede:channelartlist}
+            </ul>
+            <a class="more" href="javascript:onKST();">找不到相应科室，点这里</a>
+          </div>
+        </div>
+      </section>
+      <section class="doctor">
+        <h2 class="index_tit"><span>实力专家</span><i></i></h2>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="item doc2">
+                <div class="doctor_info">
+                  <h2><span>付师亭</span>主任医师</h2>
+                  <p>从事儿科专业50多年，具有丰富的临床经验，在本专业有较深的造诣，多次参加全国及国际学术交流会，发表国家、省级学术论文多篇</p>
+                  <a href="{dede:arclist idlist="1636"}[field:arcurl/]{/dede:arclist}">了解更多>></a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item doc4">
+                <div class="doctor_info">
+                  <h2><span>罗春华</span>主任医师</h2>
+                  <p>1958年毕业于四川医学院(现四川大学华西临床医学院)，从事儿科临床、教学、科研工作近60年，对儿科多发疾病及疑难危重症的诊治有丰富的经验</p>
+                  <a href="{dede:arclist idlist="1635"}[field:arcurl/]{/dede:arclist}">了解更多>></a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item doc3">
+                <div class="doctor_info">
+                  <h2><span>刘震</span>主任医师</h2>
+                  <p>1957年广州中山医学院医学系毕业。擅长小儿反复呼吸道感染、长期咳嗽、哮喘、肾炎、肾病综合症、尿频、血尿、蛋白尿等，运用中西医结合独特治疗</p>
+                  <a href="{dede:arclist idlist="1632"}[field:arcurl/]{/dede:arclist}">了解更多>></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="wz_tel">
+        <ul>
+          <li><a href="javascript:onKST();">问病情</a></li>
+          <li><a href="javascript:onKST();">问治疗</a></li>
+          <li><a href="javascript:onKST();">问费用</a></li>
+          <li><a href="javascript:onKST();">找医生</a></li>
+        </ul>
+        <p><span>0755-25111120</span><a class="telbtn" href="tel:075525111120">一键通话</a></p>
+      </section>
+      <section class="tese">
+        <h2 class="index_tit"><span>特色诊疗</span><i></i></h2>
+        <div class="intro">
+          <h3>医康养多学科综合诊疗模式</h3>
+          <p>身心同治，以儿童为本。以中西医诊疗为主导，结合心理治疗，康复训练、营养指导，针对儿童生理、心理及发育等各类需求所提供的诊疗新模式。</p>
+        </div>
+        <ul>
+          <li><img src="{dede:global.cfg_templets_skin/}/images/index_tese4.jpg"><p>康复训练</p></li>
+          <li><img src="{dede:global.cfg_templets_skin/}/images/index_tese1.jpg"><p>中西医结合诊疗</p></li>
+          <li><img src="{dede:global.cfg_templets_skin/}/images/index_tese2.jpg"><p>心理治疗</p></li>
+          <li><img src="{dede:global.cfg_templets_skin/}/images/index_tese3.jpg"><p>营养指导</p></li>
+        </ul>
+      </section>
+      <section class="tech">
+        <h2 class="index_tit"><span>核心技术</span><i></i></h2>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <ul>
+                <li><img src="{dede:global.cfg_templets_skin/}/images/index_tech1.jpg"><p>1.5T 核磁共振（MRI）</p></li>
+                <li><img src="{dede:global.cfg_templets_skin/}/images/index_tech2.jpg"><p>儿童智力综合测评系统</p></li>
+              </ul>
+            </div>
+            <div class="swiper-slide">
+              <ul>
+                <li><img src="{dede:global.cfg_templets_skin/}/images/index_tech3.jpg"><p>经颅磁电疗仪</p></li>
+                <li><img src="{dede:global.cfg_templets_skin/}/images/index_tech4.jpg"><p>螺旋CT</p></li>
+              </ul>
+            </div>
+            <div class="swiper-slide">
+              <ul>
+                <li><img src="{dede:global.cfg_templets_skin/}/images/index_tech5.jpg"><p>全自动生化分析仪</p></li>
+                <li><img src="{dede:global.cfg_templets_skin/}/images/index_tech6.jpg"><p>视频动态脑电图</p></li>
+              </ul>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="environment">
+        <h2 class="index_tit"><span>温馨环境</span><i></i></h2>
+        <ul>
+          <li><img src="{dede:global.cfg_templets_skin/}/images/index_hj1.jpg"><p>导医台</p></li>
+          <li><img src="{dede:global.cfg_templets_skin/}/images/index_hj2.jpg"><p>一楼大厅</p></li>
+          <li><img src="{dede:global.cfg_templets_skin/}/images/index_hj3.jpg"><p>特色走廊</p></li>
+          <li><img src="{dede:global.cfg_templets_skin/}/images/index_hj4.jpg"><p>输液大厅</p></li>
+        </ul>
+      </section>
+      {dede:include filename="common_order.htm"/}
+      {dede:include filename="footer.htm"/}
+    </section>
+    <script src="{dede:global.cfg_templets_skin/}/js/index.js"></script>
+  </body>
+</html>

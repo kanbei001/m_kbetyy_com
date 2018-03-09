@@ -1,0 +1,1 @@
+<dt><a href="[field:typeurl/]">泌尿外科</a></dt>

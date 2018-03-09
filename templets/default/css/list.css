@@ -1,0 +1,35 @@
+/*list*/
+.position{background:#049ce5; color:#fff; font-size:1.2rem; padding:0 1rem; height:3.5rem; line-height:3.5rem;}
+.position a{color:#fff;}
+
+.artlist li{margin:1rem; line-height:3rem; background:#fff; padding:0.6rem 1rem; border-bottom:1px solid #eee; box-shadow:0 0 10px 2px rgba(0,0,0,0.1);}
+.artlist li h3 a{color:#555; display:block; font-size:1.2rem; border-bottom:1px solid #eee; height:2.4rem; line-height:2.4rem; overflow:hidden;}
+.artlist li p{font-size:1.1rem; height:4rem; line-height:2rem; overflow:hidden; color:#888; margin-top:0.5rem;}
+.artlist li p a{float:right; color:#f90; background:#fff; padding-left:1rem;}
+
+.pagelist{text-align:center; margin:0 0.6rem 3rem;}
+.pagelist ul{display:inline-block;}
+.pagelist li{float:left; background:#fff; margin:0.4rem; box-shadow:0 0 10px 2px rgba(0,0,0,0.1);}
+.pagelist li a, .pagelist li span{display:block; padding:0.6rem 1rem; color:#555;}
+.pagelist li.thisclass{background:#049ce5;}
+.pagelist li.thisclass a{color:#fff;}
+
+.list_doc{overflow:hidden; background:#fff; box-shadow:0 0 10px 2px rgba(0,0,0,0.1); padding-bottom:2rem;}
+.list_doc .doc{float:left; width:47%;}
+.list_doc .doc1{margin:0 2%;}
+.list_doc .doc img{width:96%; display:block; margin:auto;}
+.list_doc .doc h3{text-align:center; font-size:1.2rem; margin:0.6rem 0; color:#333;}
+.list_doc .doc h3 span{font-weight:normal; font-size:1rem; color:#888; margin-left:0.6rem;}
+.list_doc .doc p{margin:0.6rem; overflow:hidden; line-height:2rem; height:6rem; color:#555;}
+.list_doc .doc a{display:block; margin:0 auto 1rem; background:#f90; width:50%; text-align:center; color:#fff; border-radius:2rem; padding:0.5rem; font-size:1.3rem;}
+
+/*article*/
+.article{margin:1rem; box-shadow:0 0 10px 2px rgba(0,0,0,0.1); background:#fff; padding:1rem;}
+.article h1{line-height:2.2rem; font-size:1.5rem; text-align:center; margin:0 1rem; color:#049ce5;}
+.article .artinfo{color:#aaa; text-align:center; margin:1rem; border-bottom:1px solid #ccc; padding-bottom:1rem;}
+.article article{line-height:2rem; color:#555;}
+
+.prenext{margin:1rem 1rem 3rem; box-shadow:0 0 10px 2px rgba(0,0,0,0.1); background:#fff; padding:0.6rem 1rem;}
+.prenext li{color:#555;}
+.prenext li:nth-child(1){margin-bottom:0.6rem;}
+.prenext li a{color:#049ce5};

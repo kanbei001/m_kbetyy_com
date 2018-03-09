@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0,user-scalable=no"/>
+    <title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+    <meta name="keywords" content="{dede:field.keywords/}"/>
+    <meta name="description" content="{dede:field.description/}"/>
+    <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/list.css"/>
+    <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/list_bz.css"/>
+  </head>
+  <body>
+    <section class="wrap">
+      {dede:include filename="header.htm"/}
+      {dede:include filename="banner.htm"/}
+      <section class="main_intro">
+        <h1>{dede:field.typename/}</h1>
+        <p>{dede:field.content/}</p>
+      </section>
+      <section class="dis_list">
+        <h2 class="index_tit"><span>诊疗项目</span><i></i></h2>
+        <ul>
+          {dede:channelartlist type="son"}
+          <li><a href="{dede:field.typeurl/}">{dede:field.typename/}</a></li>
+          {/dede:channelartlist}
+        </ul>
+        <a class="btn" href="javascript:onKST();">没有自己想了解的内容？问问在线医生</a>
+      </section>
+      <section class="service">
+        <h2 class="index_tit"><span>特色服务</span><i></i></h2>
+        <ul>
+          <li><p>一站式就诊通道</p></li>
+          <li><p>多对一护理模式</p></li>
+          <li><p>医康养综合诊疗</p></li>
+        </ul>
+        <div class="des">
+          <h3>以“儿童为中心”的儿科优质服务</h3>
+          <p>身心同治 以人为本，针对儿童生理、心理及发育等需求所提供的特色诊疗服务，使诊疗更精准、更规范、更高效。</p>
+        </div>
+      </section>
+      <section class="hot">
+        <h2 class="index_tit"><span>推荐文章</span><i></i></h2>
+        <ul>
+          {dede:arclist row="2" flag="p"}
+          <li>
+            <div class="img">
+              <a href="[field:arcurl/]"><img src="[field:litpic/]"/></a>
+            </div>
+            <div class="info">
+              <h3><a href="">[field:fulltitle/]</a></h3>
+              <p>[field:infos/]</p>
+              <a class="readall btn" href="[field:arcurl/]">阅读全文</a>
+              <a class="btn" href="javascript:onKST();">在线咨询</a>
+            </div>
+          </li>
+          {/dede:arclist}
+        </ul>
+      </section>
+      <script>
+        function ks_hot(i){
+          var tid = "{dede:field.typeid/}";
+          var a = i;
+          var ks_hot = new Array();
+          ks_hot["543"] = ["孩子爱独处是自闭症吗","孩子时不时就傻笑是怎么回事","怎么分辨孩子是正常好动还是多动症","6岁了还尿床正常吗","孩子总喜欢摇头晃脑怎么办"];
+          ks_hot["427"] = ["治疗脑瘫多少钱","怎么测试孩子智力","孩子癫痫发作时家长应该怎么办","小儿麻痹症会遗传吗","小孩神经发育慢"];
+          ks_hot["23"] = ["矮小症还能长高吗","肥胖症患儿怎么注意饮食","性早熟对孩子以后有什么影响吗","发育迟缓是营养不良吗","孩子患有糖尿病怎么办"];
+          ks_hot["27"] = ["尿道下裂做手术多少钱","新生儿包皮过长正常吗","小儿隐匿性阴茎术后外观和正常人一样吗","小孩为什么得阑尾炎","3岁宝宝患有鞘膜积液"];
+          ks_hot["564"] = ["孩子视力差能够矫正吗","宝宝牙列不齐","宝宝喝完奶总是溢乳要怎么办","腺样体肥大有哪些检查","如何预防小儿过敏性鼻炎"];
+          document.write(ks_hot[tid][a]);
+        }
+      </script>
+      <section class="hot2">
+        <h2 class="index_tit"><span>热点关注</span><i></i></h2>
+        <div class="hot2_con">
+          <div class="l1">
+            <a class="c l" href="javascript:onKST();"><script>ks_hot(0)</script></a>
+            <a class="c r" href="javascript:onKST();"><script>ks_hot(1)</script></a>
+          </div>
+          <div class="l2">
+            <a class="c" href="javascript:onKST();"><script>ks_hot(2)</script></a>
+          </div>
+          <div class="l3">
+            <a class="c l" href="javascript:onKST();"><script>ks_hot(3)</script></a>
+            <a class="c r" href="javascript:onKST();"><script>ks_hot(4)</script></a>
+          </div>
+        </div>
+        <div class="hot2_b">
+          <a class="l" href="href="javascript:onKST();"">输入您咨询的问题</a>
+          <a class="r" href="href="javascript:onKST();"">在线提问</a>
+        </div>
+      </section>
+      <section class="list_doc">
+        <h2 class="index_tit"><span>推荐医生</span><i></i></h2>
+        <div class="doc1 doc">
+          <img src="{dede:global.cfg_templets_skin/}/images/list_doc1.jpg">
+          <h3>肖侠明<span>首席专家/教授</span></h3>
+          <p>简介：1957年毕业于中山医学院医本科，在原华西医科大学，现四川大学华西第二医院儿科从事医疗、教学、科研工作，并兼教医学英语13年</p>
+          <a href="javascript:onKST();">立即咨询</a>
+        </div>
+        <div class="doc2 doc">
+          <img src="{dede:global.cfg_templets_skin/}/images/list_doc2.jpg">
+          <h3>刘震<span>主任医师</span></h3>
+          <p>简介：1957年广州中山医学院医学系毕业。擅长小儿反复呼吸道感染、长期咳嗽、哮喘、肾炎、肾病综合症、尿频、血尿、蛋白尿等，运用中西医结合独特治疗</p>
+          <a href="javascript:onKST();">立即咨询</a>
+        </div>
+      </section>
+      <section class="wz_tel">
+        <ul>
+          <li><a href="javascript:onKST();">问病情</a></li>
+          <li><a href="javascript:onKST();">问治疗</a></li>
+          <li><a href="javascript:onKST();">问费用</a></li>
+          <li><a href="javascript:onKST();">找医生</a></li>
+        </ul>
+        <p><span>0755-25111120</span><a class="telbtn" href="tel:075525111120">一键通话</a></p>
+      </section>
+      {dede:include filename="common_order.htm"/}
+      {dede:include filename="footer.htm"/}
+    </section>
+  </body>
+</html>

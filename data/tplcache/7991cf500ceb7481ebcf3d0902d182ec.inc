@@ -1,0 +1,1 @@
+<a class="more" href="[field:typeurl/]">进入[field:typename/]</a>

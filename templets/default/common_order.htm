@@ -1,0 +1,14 @@
+<section class="order" id="order">
+  <form>
+    <h2>自助预约挂号平台</h2>
+    <p>我们将对您的信息加密，请放心填写</p>
+    <input type="text" name="gh_name" id="name" value="" placeholder="请输入您的姓名"/>
+    <input type="text" name="gh_tel" id="tel" value="" placeholder="请输入您的电话号码"/>
+    <input type="text" name="gh_date" id="time" value="" placeholder="预约时间，如2017/1/1" onfocus="WdatePicker({dateFmt:'yyyy/MM/dd'})"/>
+    <select id="keshi" name="gh_offices">
+      <option value="0">请选择科室</option>
+    </select>
+    <textarea name="gh_des" id="des" placeholder="您可以填写孩子的病情描述，以便我们更好地提供治疗"></textarea>
+    <div id="submit" onclick="post_order()">提交预约</div>
+  </form>
+</section>

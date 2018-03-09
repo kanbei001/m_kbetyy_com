@@ -1,0 +1,1 @@
+<dt><a href="[field:typeurl/]">内分泌科</a></dt>

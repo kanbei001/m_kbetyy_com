@@ -1,0 +1,32 @@
+<?php
+$z[0]=Array("field","",395,417);
+$z[0][4]['name']="typename";
+$z[1]=Array("global","",420,446);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",490,512);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",554,579);
+$z[3][4]['name']="description";
+$z[4]=Array("global","",632,664);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",731,763);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("include","",835,872);
+$z[6][4]['filename']="header.htm";
+$z[7]=Array("include","",879,916);
+$z[7][4]['filename']="banner.htm";
+$z[8]=Array("field","\n        \$a=mb_strlen(@me);\n        @me=cn_substr(@me,\$a-4);\n        ",958,1081);
+$z[8][4]['name']="position";
+$z[8][4]['runphp']="yes";
+$z[9]=Array("list","\n          <li>\n            <div class=\"img\">\n              <a href=\"[field:arcurl/]\"><img src=\"[field:litpic/]\"/></a>\n            </div>\n            <div class=\"info\">\n              <h3><a href=\"[field:arcurl/]\">[field:title/]<span>[field:shorttitle/]</span></a></h3>\n              <p><b>简介：</b>[field:infos/]……<a href=\"[field:arcurl/]\">[详情]</a></p>\n              <a class=\"zixun btn\" href=\"javascript:onKST();\">在线咨询</a>\n              <a class=\"guahao btn\" href=\"#order\">直接挂号</a>\n            </div>\n          </li>\n          ",1154,1759);
+$z[9][4]['pagesize']="4";
+$z[9][4]['infolen']="60";
+$z[10]=Array("pagelist","",1847,1913);
+$z[10][4]['listitem']="index,end,pre,next,pageno";
+$z[10][4]['listsize']="1";
+$z[11]=Array("include","",2378,2421);
+$z[11][4]['filename']="common_order.htm";
+$z[12]=Array("include","",2428,2465);
+$z[12][4]['filename']="footer.htm";
+
+?>

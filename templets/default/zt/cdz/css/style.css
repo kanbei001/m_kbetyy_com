@@ -1,0 +1,109 @@
+*{margin:0; padding:0; font-family:"Microsoft Yahei";}
+a{text-decoration:none;}
+li{list-style:none;}
+input, select, textarea, button{outline:none;}
+
+@media all and (max-width:640px) {
+  html{font-size:16px;}
+}
+@media all and (max-width:560px) {
+  html{font-size:13px;}
+}
+@media all and (max-width:480px) {
+  html{font-size:10px;}
+}
+
+.wrap{width:640px; min-width:320px; margin:auto; overflow:hidden; background:#EBFAFF;}
+@media all and (max-width: 640px) {
+  .wrap{width:100%;}
+}
+
+.top img{width:100%; display:block;}
+
+.topnav{background:#3AC1E1;}
+.topnav ul{overflow:hidden; margin:0 1%;}
+.topnav li{float:left; width:19.5%; border-right:2px solid #fff; padding:1rem 0;}
+.topnav li:nth-last-child(1){border:none;}
+.topnav li a{color:#fff; text-align:center; display:block; font-size:1.3rem;}
+
+.banner img{width:100%; display:block;}
+
+.daoyu{background:url(../images/daoyu_bg.jpg) no-repeat center/100% 100%; padding:2rem 4rem 4rem;}
+.daoyu h2{text-align:center; padding:0 0 0.6rem; color:#3AC1E1; font-size:2.4rem;}
+.daoyu p{color:#555; font-size:1.3rem; line-height:2.4rem; font-weight:lighter; text-indent:2em;}
+
+.con1{background:#EBFAFF; padding-top:2rem;}
+.con1 .tit h3{color:#3AC1E1; text-align:center; margin:1rem 0; font-size:1.6rem; font-weight:lighter;}
+.con1 .tit h2{color:#fff; text-align:center; font-size:1.8rem; background:url(../images/con1_tit.png) no-repeat center/100% 100%; padding:1rem 0; margin:0 1.5rem;}
+.con1 .con{position:relative;}
+.con1 .con img{width:100%; display:block;}
+.con1 .con dl{position:absolute;}
+.con1 .con dl.c1{top:5%; left:6%;}
+.con1 .con dl.c2{top:40%; left:12%;}
+.con1 .con dl.c3{top:75%; left:6%;}
+.con1 .con dt{color:#3AC1E1; font-size:1.5rem; margin-bottom:10%;}
+.con1 .con dd{color:#555; font-size:1.4rem;}
+.con1 .bot{margin-top:2rem;}
+.con1 .bot h2{overflow:hidden;}
+.con1 .bot h2 span{background:#3AC1E1; color:#fff; padding:0.3rem 0; font-size:1.7rem; display:block; width:24%; text-align:center; float:left;}
+.con1 .bot h2 i{width:30%; height:1.5rem; border-bottom:1px solid #555; display:block; float:left; margin:0 4%}
+.con1 .bot p{text-align:center; font-size:1.5rem; color:#555; padding:1.5rem 0;}
+.swtbtn{display:block; font-size:1.5rem; color:#fff; background:#FABC45; border-radius:3rem; padding:1.2rem; text-align:center; overflow:hidden; margin:0 1rem;}
+.swtbtn span{display:inline-block; background:url(../images/btn_icon1.png) no-repeat left center/auto 100%; padding-left:3rem;}
+
+.con2{background:#EBFAFF url(../images/con2_bg.jpg) no-repeat center/100% 100%; padding:3.5rem 2.5rem; margin-top:3rem;}
+.con2 .tit h3{font-size:1.5rem; font-weight:lighter; color:#3AC1E1; text-align:center;}
+.con2 .tit h2{font-size:1.8rem; text-align:center; color:#fff; background:url(../images/con2_tit.png) no-repeat center/100% 100%; padding:2rem 0;}
+.con2 .con p{font-size:1.4rem; color:#555; text-indent:2em; line-height:2.4rem; margin:1.5rem 1rem;}
+.con2 .con ul{overflow:hidden; text-align:center;}
+.con2 .con ul li{display:inline-block; margin:1rem 2rem 1rem 0; width:26%;}
+.con2 .con ul li img{width:100%; display:block;}
+.con2 .con ul li:nth-last-child(1){margin-right:0;}
+.con2 .con ul li p{margin:0.6rem 0 0; text-indent:0; color:#3AC1E1;}
+.con2 .con .l1 li{width:}
+.con2 .bot{background:url(../images/con2_bg2.jpg) no-repeat center/100% 100%; padding:2rem 1.5rem; font-size:1.3rem; overflow:hidden;}
+.con2 .bot p{color:#3AC1E1; line-height:2.4rem; float:left;}
+.con2 .bot p span{color:#FFC2BB;}
+.con2 .bot a{background:#FABC45; color:#fff; padding:1rem 1.5rem; margin-top:0.4rem; border-radius:0.5rem; display:block; float:right;}
+
+.con3{background:#EBFAFF; padding:3rem 0;}
+.con3 .tit{text-align:center; padding:0 2.5rem;}
+.con3 .tit h3{font-size:1.5rem; font-weight:lighter; color:#3AC1E1; margin-bottom:1rem;}
+.con3 .tit h2{font-size:1.8rem; color:#fff; background:url(../images/con1_tit.png) no-repeat center/100% 100%; padding:0.6rem 0;}
+.con3 .con p{font-size:1.4rem; line-height:2rem; color:#555; text-indent:2em; margin:2rem 2.5rem;}
+.con3 .con img{width:100%; display:block; margin:3rem 0;}
+
+.con4{background:#EBFAFF url(../images/con4_bg.jpg) no-repeat center/100% 100%; margin:0 1rem; padding:3rem 1rem;}
+.con4 .tit h3{font-size:1.5rem; font-weight:lighter; color:#3AC1E1; text-align:center;}
+.con4 .tit h2{font-size:1.8rem; text-align:center; color:#fff; background:url(../images/con2_tit.png) no-repeat center/100% 100%; padding:2rem 0;}
+.con4 .item{overflow:hidden; padding:2rem 0 3rem;}
+.con4 .item .img{float:left; width:45%}
+.con4 .item .img img{width:100%;}
+.con4 .item .info{float:right; width:50%;}
+.con4 .item .info h3{font-size:1.8rem; color:#3AC1E1; margin:0.5rem 0 1.5rem;}
+.con4 .item .info h3 span{font-size:1.4rem; color:#555; margin-left:1rem; font-weight:lighter;}
+.con4 .item .info p{color:#555; font-size:1.3rem; line-height:2.2rem; height:8.8rem; overflow:hidden;}
+.con4 .item .info p a{color:#FF9A4D;}
+.con4 .item .info .btn{margin-top:2rem;}
+.con4 .item .info .btn a{width:46%; color:#fff; font-size:1.3rem; text-align:center; line-height:3rem; display:block; border-radius:0.5rem;}
+.con4 .item .info .zixun{background:#3AC1E1; float:left;}
+.con4 .item .info .guahao{background:#FF9A4D; float:right;}
+
+#guahao{margin:2rem 3rem 4rem; text-align:center;}
+#guahao h2{font-size:1.8rem; color:#37BFFF;}
+#guahao p{color:#888; margin:0.3rem 0;}
+#guahao ul{margin:2rem 0;}
+#guahao ul li{overflow:hidden; color:#888; font-size:1.3rem; line-height:3rem; margin-bottom:1.8rem;}
+#guahao label{width:25%; display:block; float:left;}
+#guahao input, #guahao textarea{border:none; outline:none; background:#f8f8f8; width:74%; height:3rem; display:block; float:right; border:1px solid #ccc; font-size:1.3rem; line-height:3rem; color:#888; text-indent:0.6rem;}
+#guahao input:focus, #guahao textarea:focus{background:#fff;}
+#guahao textarea{height:6rem; resize:none;}
+
+#submit{background:#EE8F17; color:#fff; margin-left:25%; display:inline-block; font-size:1.3rem; padding:0.6rem 3rem; border-radius:0.5rem;}
+
+footer{background:#3AC1E1; padding:2rem 1.5rem; overflow:hidden;}
+footer .weixin{width:10rem; float:left; max-width:calc(35% - 1.5rem);}
+footer .weixin img{width:100%;}
+footer .footer_info{float:left; line-height:2rem; width:65%; margin-left:1.5rem;}
+footer .footer_info p{font-size:1.3rem; color:#fff; margin:1rem 0;}
+footer .footer_info p a{color:#ff0;}
