@@ -218,6 +218,7 @@ $cfg_Cs[392]=array(103,1,1,'5bi46KeB6Zeu6aKY');
 $cfg_Cs[393]=array(102,1,1,'5bi46KeB6Zeu6aKY');
 $cfg_Cs[394]=array(101,1,1,'5bi46KeB6Zeu6aKY');
 $cfg_Cs[395]=array(100,1,1,'5bi46KeB6Zeu6aKY');
+$cfg_Cs[568]=array(0,1,1,'572R56uZ5Zyw5Zu+');
 $cfg_Cs[566]=array(19,1,1,'5YS/56ul5pSv5rCU566h54KO');
 $cfg_Cs[405]=array(85,1,1,'5bi46KeB6Zeu6aKY');
 $cfg_Cs[406]=array(86,1,1,'5bi46KeB6Zeu6aKY');
