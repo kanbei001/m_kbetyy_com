@@ -29,11 +29,11 @@ $z[13]=Array("global","",9965,9997);
 $z[13][4]['name']="cfg_templets_skin";
 $z[14]=Array("arclist","[field:arcurl/]",10314,10372);
 $z[14][4]['idlist']="1633";
-$z[15]=Array("global","",11535,11567);
+$z[15]=Array("global","",11533,11565);
 $z[15][4]['name']="cfg_templets_skin";
-$z[16]=Array("global","",11935,11967);
+$z[16]=Array("global","",11933,11965);
 $z[16][4]['name']="cfg_templets_skin";
-$z[17]=Array("include","",11994,12031);
+$z[17]=Array("include","",11992,12029);
 $z[17][4]['filename']="common.htm";
 
 ?>

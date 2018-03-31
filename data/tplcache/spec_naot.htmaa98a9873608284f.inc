@@ -53,13 +53,13 @@ $z[25]=Array("arclist","[field:arcurl/]",9497,9555);
 $z[25][4]['idlist']="1633";
 $z[26]=Array("global","",9966,9998);
 $z[26][4]['name']="cfg_templets_skin";
-$z[27]=Array("global","",10760,10792);
+$z[27]=Array("global","",10758,10790);
 $z[27][4]['name']="cfg_templets_skin";
-$z[28]=Array("global","",10899,10931);
+$z[28]=Array("global","",10897,10929);
 $z[28][4]['name']="cfg_templets_skin";
-$z[29]=Array("global","",11299,11331);
+$z[29]=Array("global","",11297,11329);
 $z[29][4]['name']="cfg_templets_skin";
-$z[30]=Array("include","",11358,11395);
+$z[30]=Array("include","",11356,11393);
 $z[30][4]['filename']="common.htm";
 
 ?>

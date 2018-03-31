@@ -49,9 +49,9 @@ $z[23]=Array("global","",9205,9237);
 $z[23][4]['name']="cfg_templets_skin";
 $z[24]=Array("arclist","[field:arcurl/]",9576,9634);
 $z[24][4]['idlist']="1633";
-$z[25]=Array("global","",11517,11549);
+$z[25]=Array("global","",11515,11547);
 $z[25][4]['name']="cfg_templets_skin";
-$z[26]=Array("include","",11576,11613);
+$z[26]=Array("include","",11574,11611);
 $z[26][4]['filename']="common.htm";
 
 ?>

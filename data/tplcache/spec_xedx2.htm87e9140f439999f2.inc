@@ -89,17 +89,17 @@ $z[43]=Array("global","",11826,11858);
 $z[43][4]['name']="cfg_templets_skin";
 $z[44]=Array("global","",11992,12024);
 $z[44][4]['name']="cfg_templets_skin";
-$z[45]=Array("type","[field:typeurl/]",13336,13386);
+$z[45]=Array("type","[field:typeurl/]",13334,13384);
 $z[45][4]['typeid']="1";
-$z[46]=Array("type","[field:typeurl/]",13424,13474);
+$z[46]=Array("type","[field:typeurl/]",13422,13472);
 $z[46][4]['typeid']="5";
-$z[47]=Array("type","[field:typeurl/]",13512,13563);
+$z[47]=Array("type","[field:typeurl/]",13510,13561);
 $z[47][4]['typeid']="16";
-$z[48]=Array("global","",13700,13732);
+$z[48]=Array("global","",13698,13730);
 $z[48][4]['name']="cfg_templets_skin";
-$z[49]=Array("global","",14070,14102);
+$z[49]=Array("global","",14068,14100);
 $z[49][4]['name']="cfg_templets_skin";
-$z[50]=Array("include","",14567,14604);
+$z[50]=Array("include","",14565,14602);
 $z[50][4]['filename']="common.htm";
 
 ?>

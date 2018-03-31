@@ -189,7 +189,7 @@
           <ul>
             <li><label>患者姓名：</label><input type="text" id="name" value=""/></li>
             <li><label>联系方式：</label><input type="text" id="tel" value=""/></li>
-            <li><label>就诊时间：</label><input type="text" id="time" value="" onfocus="WdatePicker({dateFmt:'yyyy/MM/dd'})"/></li>
+            <li><label>就诊时间：</label><input type="text" id="time" value="" onfocus="WdatePicker({minDate:'%y-%M-%d'})"/></li>
             <li><label>病情描述：</label><textarea type="text" id="des" value=""></textarea></li>
           </ul>
           <div id="submit" onclick="post_order()">立即预约</div>

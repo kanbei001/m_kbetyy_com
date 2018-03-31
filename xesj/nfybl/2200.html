@@ -147,7 +147,7 @@
     <p>我们将对您的信息加密，请放心填写</p>
     <input type="text" name="gh_name" id="name" value="" placeholder="请输入您的姓名"/>
     <input type="text" name="gh_tel" id="tel" value="" placeholder="请输入您的电话号码"/>
-    <input type="text" name="gh_date" id="time" value="" placeholder="预约时间，如2017/1/1" onfocus="WdatePicker({dateFmt:'yyyy/MM/dd'})"/>
+    <input type="text" name="gh_date" id="time" value="" placeholder="预约时间，如2017/1/1" onfocus="WdatePicker({minDate:'%y-%M-%d'})"/>
     <select id="keshi" name="gh_offices">
       <option value="0">请选择科室</option>
     </select>
@@ -253,8 +253,12 @@ $(".ksttc p").click(function(){
 <script>
 window.setInterval(function(){
   $("#_embed_v3_dc").hide();
+  $("#chunasqwd_ad_5ab4a4a2").hide();
 },100)
 </script>
+
+<!--摇一摇-->
+<script src="/templets/default/js/yao.js"></script>
     </section>
   </body>
 </html>

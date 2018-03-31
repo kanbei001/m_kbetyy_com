@@ -61,11 +61,11 @@ $z[29]=Array("global","",10246,10278);
 $z[29][4]['name']="cfg_templets_skin";
 $z[30]=Array("global","",11116,11148);
 $z[30][4]['name']="cfg_templets_skin";
-$z[31]=Array("global","",12991,13023);
+$z[31]=Array("global","",12989,13021);
 $z[31][4]['name']="cfg_templets_skin";
-$z[32]=Array("global","",13404,13436);
+$z[32]=Array("global","",13402,13434);
 $z[32][4]['name']="cfg_templets_skin";
-$z[33]=Array("include","",13461,13498);
+$z[33]=Array("include","",13459,13496);
 $z[33][4]['filename']="common.htm";
 
 ?>
